@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#countLab{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  color: white;
+}
+.buttons{
+    transform: translateX(575px);
+    font-size: 1.5em;
+    color: aqua;
+    background-color: rgb(0, 85, 93);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color;
+    transition: drop-shadow;
+}
+.buttons:hover{
+    background-color:  rgb(4, 214, 233);
+    filter: drop-shadow(0px 0px 10px rgb(34, 0, 255));
+    transition: 0.6s;
+}
